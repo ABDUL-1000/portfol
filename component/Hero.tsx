@@ -83,10 +83,10 @@ Yusuff Abdulkareem Abdullateef"
             <motion.div   initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }} className=" flex lg:flex-row flex-col items-center justify-center">
-            <a href="#about">
-           
+            <a href="https://docs.google.com/document/d/1R28inVdzQyfGnjg3sfDhD4QKBDZUuISHB9zW_m6foUM/edit?usp=sharing" target="_blank">
+            
               <MagicButton
-                title="show my work"
+                title="view my Resume"
                
                 position="right"
               />
