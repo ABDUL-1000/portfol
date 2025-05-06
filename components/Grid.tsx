@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
+import {  BentoGridItem } from './ui/BentoGrid'
 import { projects } from '@/data'
 import { motion } from 'framer-motion'
 
@@ -30,13 +30,13 @@ const Grid = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.3 }}
-      className=""
+      className="py-10"
     >
       <motion.h1
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-center lg:text-[3rem] font-bold text-sm pb-20"
+        className="text-center lg:text-[3rem] font-bold text-sm py-10"
       >
         Some of My{' '}
         <span className="text-purple-300">
