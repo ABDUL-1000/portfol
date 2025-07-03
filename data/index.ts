@@ -74,16 +74,16 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Personal Portfolio",
+      title: "TMMMS-TRANSPORTS -  PROJECT ",
       des: "The website features my skills and project showcase",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://abdullateef.vercel.app/",
+      link: "https://tmms-transport.vercel.app/",
     },
     {
       id: 2,
-      title: "TMMS - Project",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "TMMMS MARKETERS - Project",
+      des: "",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://tmmmsapp.com/",
@@ -106,45 +106,39 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "CERTIFICATE GENERATOR",
+      title: "SHOPDESK",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://abdul-1000.github.io/cert-gene/",
+      link: "https://shopdesk-ashy.vercel.app/",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Abdulkarim on the Simkash project has been one of the smoothest frontend-backend partnerships I’ve experienced. As the backend developer providing APIs, I was genuinely impressed with how efficiently Abdulkarim integrated them on the frontend using Next.js. His clear communication, attention to detail, and quick understanding of API structures made our workflow seamless." ,
+      name: "Farouq Abiodun",
+      title: "Backend Developer, Simkash",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Abdulkarim on the Simkash project was a great experience. As the UI/UX designer, I appreciated how well he translated my designs into clean, functional, and responsive interfaces using Next.js. He paid close attention to design details, maintained consistency with the UI guidelines, and often suggested smart improvements to enhance user experience.",
+      name: "Yusuf A Baba",
+      title: "UIUX designer Simkash",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Abdulkarim on multiple projects has been an outstanding experience. On the Simkash platform, Abdulkarim consistently delivered clean, efficient, and scalable frontend solutions using Next.js, collaborating seamlessly with Farouq Abiodun, Yusuf, and the rest of the team. His attention to detail and ability to translate UI/UX designs into functional, high-performance interfaces stood out throughout the project.",
+      name: "Bukhari M.",
+      title: "Founder of Simkash",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "We also partnered on the TMMS Transporters and TMMS Marketers platforms, where Abdulkarim played a vital role in implementing responsive, user-friendly interfaces and integrating key frontend functionalities. His problem-solving skills, clear communication, and dedication to delivering on time made him an invaluable part of the team. I would gladly recommend Abdulkarim for any frontend development role — he's a reliable, skilled, and proactive developer.",
+      title: "CTO TMMMS TEAM ",
     },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+   
   ];
   
   export const companies = [

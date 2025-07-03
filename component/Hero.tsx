@@ -50,6 +50,9 @@ const Hero = () => {
       >
         <Image
           src={pics} 
+              width={100
+                  }
+                  height={100}
           alt="Profile"
           className="w-full h-full object-cover rounded-full border-4 border-white relative z-10"
         />

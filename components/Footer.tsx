@@ -8,7 +8,9 @@ const Footer = () => {
   return (
 <footer className='w-full md:mb-5 mb-[100px] pb-10 ' id='Footer'>
 <div className='w-full absolute left-0 -bottom-72 min-h-92'>
-<Image src="/footer-grid.svg" alt="grid" 
+<Image src="/footer-grid.svg" alt="grid"     width={100
+                  }
+                  height={100}
 className='w-full h-full opacity-50'
 />
 </div>

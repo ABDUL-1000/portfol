@@ -22,7 +22,9 @@ const Experience = () => {
         className="flex-1 text-white border-slate-200 dark:border-slate-800"
       >
         <div className='flex flex-col lg:items-center py-6 p-3 lg:flex-row lg:p-10 gap-2 md:p-5'>
-        <Image src={card.thumbnail} alt={card.thumbnail}  className='lg:w-32 md:w-20 w-16'/>
+        <Image src={card.thumbnail} alt={card.thumbnail}     width={100
+                  }
+                  height={100}  className='lg:w-32 md:w-20 w-16'/>
         <div className='lg:ms-5'>
           <h1 className='text-start text-xl font-bold md:font-2xl'>
             {card.title}
