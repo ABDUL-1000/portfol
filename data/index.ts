@@ -185,14 +185,14 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Frontednd Developer @ InnoSpaceX Kano ",
+      title: "Frontend Developer @ InnoSpaceX Kano ",
       desc: "Assisted in developing various projects, and also facilitate interns ",
       className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
+      title: "Build a Fintech web App @ Simkash Solutions",
       desc: "Led the dev of a TMMS APP for a client, from initial concept to deployment.",
       className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
