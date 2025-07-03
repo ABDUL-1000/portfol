@@ -136,6 +136,7 @@ export const navItems = [
     {
       quote:
         "We also partnered on the TMMS Transporters and TMMS Marketers platforms, where Abdulkarim played a vital role in implementing responsive, user-friendly interfaces and integrating key frontend functionalities. His problem-solving skills, clear communication, and dedication to delivering on time made him an invaluable part of the team. I would gladly recommend Abdulkarim for any frontend development role — he's a reliable, skilled, and proactive developer.",
+         name: "Abdurrahman Abdussalam.",
       title: "CTO TMMMS TEAM ",
     },
    
