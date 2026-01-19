@@ -188,6 +188,30 @@ export const projects = [
       "Export/Import functionality"
     ],
     status: "Live"
+  },
+  {
+    id: 6,
+    title: "EDU-METRICS",
+    subtitle: "School, Teacher, and Students panel",
+    des: "Comprehensive school management platform with dedicated panels for teachers and students, facilitating seamless communication, assignment tracking, performance monitoring and cbt exams.",
+    img: "/img/edumetrics.png", 
+    iconLists: [
+      "/re.svg", 
+      "/tail.svg", 
+      "/ts.svg", 
+      "/three.svg", 
+      "/fm.svg" 
+    ],
+    link: "https://edu-coral-ten.vercel.app/",
+    features: [
+      "SIM card management",
+      "Transaction tracking",
+      "User authentication",
+      "Real-time analytics",
+      "Multi-role dashboard",
+      "Export/Import functionality"
+    ],
+    status: "Live"
   }
 ];
   
