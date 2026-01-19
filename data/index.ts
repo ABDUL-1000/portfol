@@ -71,48 +71,125 @@ export const navItems = [
     },
   ];
   
-  export const projects = [
-    {
-      id: 1,
-      title: "TMMMS-TRANSPORTS -  PROJECT ",
-      des: "The website features my skills and project showcase",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://tmms-transport.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "TMMMS MARKETERS - Project",
-      des: "",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://tmmmsapp.com/",
-    },
-    {
-      id: 3,
-      title: "AI LANGUAGE TRANSLATOR",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://stage-3-hng-psi.vercel.app/",
-    },
-    {
-      id: 4,
-      title: "CERTIFICATE GENERATOR",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://abdul-1000.github.io/cert-gene/",
-    },
-    {
-      id: 5,
-      title: "SHOPDESK",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://shopdesk-ashy.vercel.app/",
-    },
-  ];
+export const projects = [
+  {
+    id: 1,
+    title: "BridgePay",
+    subtitle: "Fintech Payment Platform",
+    des: "Developed a responsive and interactive fintech app with user authentication. Enhanced user experience with secure payment processing and financial management features.",
+    img: "/img/bridgepay.png",
+    iconLists: [
+      "/re.svg", 
+      "/tail.svg", 
+      "/ts.svg", 
+      "/three.svg", 
+      "/fm.svg" 
+    ],
+    link: "https://bridgepay.com.ng",
+    features: [
+      "User authentication & authorization",
+      "Secure payment processing",
+      "Real-time transaction tracking",
+      "Responsive design",
+      "API integration"
+    ],
+    status: "Live"
+  },
+  {
+    id: 2,
+    title: "WebTray",
+    subtitle: "Inventory Management System",
+    des: "Built a responsive inventory management app with user authentication and database for user watchlist management. Features include real-time stock tracking and analytics.",
+    img: "/img/webtray.png", 
+    iconLists: [
+      "/re.svg", 
+      "/tail.svg", 
+      "/ts.svg", 
+      "/three.svg", 
+      "/fm.svg" 
+    ],
+    link: "https://webtray.ng",
+    features: [
+      "User authentication system",
+      "Real-time inventory tracking",
+      "Watchlist management",
+      "Advanced search & filters",
+      "Dashboard analytics",
+      "Role-based access control"
+    ],
+    status: "Live"
+  },
+  {
+    id: 3,
+    title: "Lumina",
+    subtitle: "Green Energy Platform",
+    des: "Developed a responsive platform for green energy solutions. Focused on clean UI/UX design with interactive components and modern web technologies.",
+    img: "/img/luminagreen.png", 
+    iconLists: [
+      "/re.svg", 
+      "/tail.svg", 
+      "/ts.svg", 
+      "/three.svg", 
+      "/fm.svg" 
+    ],
+    link: "https://luminagreen360.com",
+    features: [
+      "Responsive design",
+      "Interactive UI components",
+      "Smooth animations",
+      "Modern dashboard",
+      "Mobile-first approach"
+    ],
+    status: "Live"
+  },
+  {
+    id: 4,
+    title: "TMMMS Transports",
+    subtitle: "Transport Management System",
+    des: "Transport management website showcasing logistics services with modern UI/UX design and interactive features.",
+    img: "/p1.svg", 
+    iconLists: [
+      "/re.svg", 
+      "/tail.svg", 
+      "/ts.svg", 
+      "/three.svg", 
+      "/fm.svg" 
+    ],
+    link: "https://tmms-transport.vercel.app/",
+    features: [
+      "Service showcase",
+      "Booking system",
+      "Route tracking",
+      "Fleet management",
+      "Customer portal"
+    ],
+    status: "Live"
+  },
+  {
+    id: 5,
+    title: "SIMKASH",
+    subtitle: "Fintech Super Admin Dashboard",
+    des: "Comprehensive fintech platform offering seamless financial services with admin dashboard for managing SIM card distributions, transactions, and user management.",
+    img: "/img/simkash.png", 
+    iconLists: [
+      "/re.svg", 
+      "/tail.svg", 
+      "/ts.svg", 
+      "/three.svg", 
+      "/fm.svg" 
+    ],
+    link: "https://simkash.com/landingpage",
+    features: [
+      "SIM card management",
+      "Transaction tracking",
+      "User authentication",
+      "Real-time analytics",
+      "Multi-role dashboard",
+      "Export/Import functionality"
+    ],
+    status: "Live"
+  }
+];
   
   export const testimonials = [
     {
@@ -192,15 +269,22 @@ export const navItems = [
     },
     {
       id: 3,
+      title: "Frontend Developer @ InnoSpaceX Kano ",
+      desc: "Assisted in developing various projects, and also facilitate interns ",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
+    },
+    {
+      id: 4,
       title: "Build a Fintech web App @ Simkash Solutions",
       desc: "Led the dev of a TMMS APP for a client, from initial concept to deployment.",
       className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
     },
     {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      id: 5,
+      title: "Frontend Developer @ webtray",
+      desc: "Collaborte with frontend developers in building an inventory system.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -211,7 +295,7 @@ export const navItems = [
       id: 1,
       img: '/git.svg',
       alt: 'GitHub',
-      href: 'https://github.com/ABDUL-1000', // optional: add your link
+      href: 'https://github.com/ABDUL-1000', 
     },
     {
       id: 2,

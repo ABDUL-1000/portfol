@@ -1,15 +1,11 @@
-'use client';
+"use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-const roles: string[] = [
-  "Frontend Developer",
-  "Backend Developer",
-  "Virtual Assistant"
-];
+const roles: string[] = ["Frontend Developer", "Backend Developer", "Mathematician" ];
 
 const TypingText: React.FC = () => {
-  const [text, setText] = useState<string>('');
+  const [text, setText] = useState<string>("");
   const [roleIndex, setRoleIndex] = useState<number>(0);
   const [isDeleting, setIsDeleting] = useState<boolean>(false);
   const [speed, setSpeed] = useState<number>(100);
@@ -27,10 +23,10 @@ const TypingText: React.FC = () => {
       }
 
       if (!isDeleting && text === current) {
-        setTimeout(() => setIsDeleting(true), 2000);
+        setTimeout(() => setIsDeleting(true), 7000);
       }
 
-      if (isDeleting && text === '') {
+      if (isDeleting && text === "") {
         setIsDeleting(false);
         setRoleIndex((prev) => (prev + 1) % roles.length);
       }
